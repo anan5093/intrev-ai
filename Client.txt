@@ -61,7 +61,7 @@ client/
 │
 ├── config/
 │   ├── db.js
-│   ├── ollama.js
+│   ├── groq.js
 │   └── whisper.js
 │
 ├── models/
