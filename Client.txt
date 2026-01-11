@@ -1,0 +1,93 @@
+client/
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+├── node_modules/
+│
+└── src/
+    ├── assets/
+    │   └── images/
+    │
+    ├── components/
+    │   ├── auth/
+    │   │   ├── EmailLoginForm.jsx
+    │   │   └── GoogleLoginButton.jsx
+    │   │
+    │   ├── interview/
+    │   │   ├── InterviewTypeSelector.jsx
+    │   │   ├── DifficultySelector.jsx
+    │   │   ├── AIQuestionCard.jsx
+    │   │   ├── VoiceRecorder.jsx
+    │   │   ├── SpeechToText.jsx
+    │   │   └── InterviewProgress.jsx
+    │   │
+    │   ├── dashboard/
+    │   │   ├── ScoreCard.jsx
+    │   │   ├── ConfidenceMeter.jsx
+    │   │   ├── SkillBreakdown.jsx
+    │   │   └── AIInsights.jsx
+    │   │
+    │   └── common/
+    │       ├── Button.jsx
+    │       ├── Loader.jsx
+    │       └── ProtectedRoute.jsx
+    │
+    ├── context/
+    │   └── AuthContext.jsx
+    │
+    ├── pages/
+    │   ├── Login.jsx
+    │   ├── InterviewLanding.jsx
+    │   ├── InterviewSetup.jsx
+    │   ├── InterviewSession.jsx
+    │   └── InterviewResult.jsx
+    │
+    ├── routes/
+    │   └── AppRoutes.jsx
+    │
+    ├── services/
+    │   ├── authService.js
+    │   ├── interviewService.js
+    │   └── speechService.js
+    │
+    ├── index.css
+    ├── App.jsx
+    └── main.jsx
+    
+    Backend
+    backend/
+│
+├── config/
+│   ├── db.js
+│   ├── ollama.js
+│   └── whisper.js
+│
+├── models/
+│   ├── User.js
+│   ├── Interview.js
+│   └── Result.js
+│
+├── controllers/
+│   ├── auth.controller.js
+│   ├── interview.controller.js
+│   ├── ai.controller.js
+│   └── speech.controller.js
+│
+├── routes/
+│   ├── auth.routes.js
+│   ├── interview.routes.js
+│   ├── ai.routes.js
+│   └── speech.routes.js
+│
+├── middleware/
+│   └── auth.middleware.js
+│
+├── uploads/
+│   └── audio/
+│
+├── server.js
+├── package.json
+└── .env
+
