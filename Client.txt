@@ -62,7 +62,7 @@ client/
 ├── config/
 │   ├── db.js
 │   ├── groq.js
-│   └── whisper.js
+│   └── multer.js
 │
 ├── models/
 │   ├── User.js
